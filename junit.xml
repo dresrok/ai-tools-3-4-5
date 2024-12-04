@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="14" failures="8" errors="0" time="0.56">
+  <testsuite name="Testing the groupAnagrams function" errors="0" failures="5" skipped="0" timestamp="2024-12-03T19:54:04" time="0.197" tests="5">
+    <testcase classname="Testing the groupAnagrams function should correctly group anagrams together" name="Testing the groupAnagrams function should correctly group anagrams together" time="0">
+      <failure>Expected value   undefined
+Received:
+  undefined
+
+Message:
+  Cannot read properties of undefined (reading &apos;length&apos;)
+
+Difference:
+
+Compared values have no visual difference.TypeError: 
+    at Object.eval (/home/projects/stackblitz-starters-vnout5/tests/case3.test.js:11:32)
+    at Promise.then.completed (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/utils.js:298:28)
+    at &lt;anonymous&gt; (https://stackblitzstartersvnout5-k3y5.w-credentialless-staticblitz.com/blitz.fc837ba8.js:40:21741)
+    at new Promise (https://stackblitzstartersvnout5-k3y5.w-credentialless-staticblitz.com/blitz.fc837ba8.js:40:21712)
+    at callAsyncCircusFn (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:316:40)
+    at async _runTest (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:252:3)
+    at async _runTestsForDescribeBlock (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:126:9)
+    at async _runTestsForDescribeBlock (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:121:9)
+    at async run (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:71:3)
+    at async runAndTransformResultsToJestFormat (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at async jestAdapter (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at async runTestInternal (/home/projects/stackblitz-starters-vnout5/node_modules/jest-runner/build/runTest.js:367:16)
+    at async runTest (/home/projects/stackblitz-starters-vnout5/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="sumOfPrimes returns the sum of all prime numbers up to a given number" name="sumOfPrimes returns the sum of all prime numbers up to a given number" time="0.001">
+      <failure>Expected value   undefined
+Received:
+  undefined
+
+Message:
+  expect(received).toBe(expected) // Object.is equality
+
+Expected: 0
+Received: undefined
+
+Difference:
+
+Compared values have no visual difference.Error: 
+    at Object.toBe (/home/projects/stackblitz-starters-vnout5/tests/case3.test.js:23:28)
+    at Promise.then.completed (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/utils.js:298:28)
+    at https://stackblitzstartersvnout5-k3y5.w-credentialless-staticblitz.com/blitz.fc837ba8.js:40:21741
+    at new Promise (&lt;anonymous&gt;)
+    at new Promise (https://stackblitzstartersvnout5-k3y5.w-credentialless-staticblitz.com/blitz.fc837ba8.js:40:21712)
+    at callAsyncCircusFn (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:121:9)
+    at run (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/projects/stackblitz-starters-vnout5/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/projects/stackblitz-starters-vnout5/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="sumOfPrimes returns 0 for negative input values" name="sumOfPrimes returns 0 for negative input values" time="0">
+      <failure>Expected value   undefined
+Received:
+  undefined
+
+Message:
+  expect(received).toBe(expected) // Object.is equality
+
+Expected: 0
+Received: undefined
+
+Difference:
+
+Compared values have no visual difference.Error: 
+    at Object.toBe (/home/projects/stackblitz-starters-vnout5/tests/case3.test.js:32:29)
+    at Promise.then.completed (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/utils.js:298:28)
+    at https://stackblitzstartersvnout5-k3y5.w-credentialless-staticblitz.com/blitz.fc837ba8.js:40:21741
+    at new Promise (&lt;anonymous&gt;)
+    at new Promise (https://stackblitzstartersvnout5-k3y5.w-credentialless-staticblitz.com/blitz.fc837ba8.js:40:21712)
+    at callAsyncCircusFn (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:121:9)
+    at run (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/projects/stackblitz-starters-vnout5/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/projects/stackblitz-starters-vnout5/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="toTitleCase converts a string to title case (first letter of each word capitalized)" name="toTitleCase converts a string to title case (first letter of each word capitalized)" time="0">
+      <failure>Expected value   undefined
+Received:
+  undefined
+
+Message:
+  expect(received).toBe(expected) // Object.is equality
+
+Expected: &quot;Hello World&quot;
+Received: undefined
+
+Difference:
+
+Compared values have no visual difference.Error: 
+    at Object.toBe (/home/projects/stackblitz-starters-vnout5/tests/case3.test.js:38:40)
+    at Promise.then.completed (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/utils.js:298:28)
+    at https://stackblitzstartersvnout5-k3y5.w-credentialless-staticblitz.com/blitz.fc837ba8.js:40:21741
+    at new Promise (&lt;anonymous&gt;)
+    at new Promise (https://stackblitzstartersvnout5-k3y5.w-credentialless-staticblitz.com/blitz.fc837ba8.js:40:21712)
+    at callAsyncCircusFn (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:121:9)
+    at run (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/projects/stackblitz-starters-vnout5/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/projects/stackblitz-starters-vnout5/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="toTitleCase handles empty strings and strings with only spaces" name="toTitleCase handles empty strings and strings with only spaces" time="0.001">
+      <failure>Expected value   undefined
+Received:
+  undefined
+
+Message:
+  expect(received).toBe(expected) // Object.is equality
+
+Expected: &quot;&quot;
+Received: undefined
+
+Difference:
+
+Compared values have no visual difference.Error: 
+    at Object.toBe (/home/projects/stackblitz-starters-vnout5/tests/case3.test.js:45:29)
+    at Promise.then.completed (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/utils.js:298:28)
+    at https://stackblitzstartersvnout5-k3y5.w-credentialless-staticblitz.com/blitz.fc837ba8.js:40:21741
+    at new Promise (&lt;anonymous&gt;)
+    at new Promise (https://stackblitzstartersvnout5-k3y5.w-credentialless-staticblitz.com/blitz.fc837ba8.js:40:21712)
+    at callAsyncCircusFn (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:121:9)
+    at run (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/projects/stackblitz-starters-vnout5/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/projects/stackblitz-starters-vnout5/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="reserveEarliestAvailableSlot" errors="0" failures="3" skipped="0" timestamp="2024-12-03T19:54:04" time="0.132" tests="3">
+    <testcase classname="reserveEarliestAvailableSlot test1" name="reserveEarliestAvailableSlot test1" time="0.001">
+      <failure>Expected value   undefined
+Received:
+  undefined
+
+Message:
+  expect(received).toMatchObject(expected)
+
+Matcher error: received value must be a non-null object
+
+Received has value: undefined
+
+Difference:
+
+Compared values have no visual difference.Error: 
+    at Object.toMatchObject (/home/projects/stackblitz-starters-vnout5/tests/case4.test.js:15:18)
+    at Promise.then.completed (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/utils.js:298:28)
+    at https://stackblitzstartersvnout5-k3y5.w-credentialless-staticblitz.com/blitz.fc837ba8.js:40:21741
+    at new Promise (&lt;anonymous&gt;)
+    at new Promise (https://stackblitzstartersvnout5-k3y5.w-credentialless-staticblitz.com/blitz.fc837ba8.js:40:21712)
+    at callAsyncCircusFn (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:121:9)
+    at run (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/projects/stackblitz-starters-vnout5/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/projects/stackblitz-starters-vnout5/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="reserveEarliestAvailableSlot test2" name="reserveEarliestAvailableSlot test2" time="0.001">
+      <failure>Expected value   undefined
+Received:
+  undefined
+
+Message:
+  expect(received).toBeNull()
+
+Received: undefined
+
+Difference:
+
+Compared values have no visual difference.Error: 
+    at Object.toBeNull (/home/projects/stackblitz-starters-vnout5/tests/case4.test.js:30:18)
+    at Promise.then.completed (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/utils.js:298:28)
+    at https://stackblitzstartersvnout5-k3y5.w-credentialless-staticblitz.com/blitz.fc837ba8.js:40:21741
+    at new Promise (&lt;anonymous&gt;)
+    at new Promise (https://stackblitzstartersvnout5-k3y5.w-credentialless-staticblitz.com/blitz.fc837ba8.js:40:21712)
+    at callAsyncCircusFn (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:121:9)
+    at run (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/projects/stackblitz-starters-vnout5/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/projects/stackblitz-starters-vnout5/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="reserveEarliestAvailableSlot test3" name="reserveEarliestAvailableSlot test3" time="0.001">
+      <failure>Expected value   undefined
+Received:
+  undefined
+
+Message:
+  expect(received).toThrowError(expected)
+
+Expected substring: &quot;The end date cannot be earlier than the start date.&quot;
+
+Received function did not throw
+
+Difference:
+
+Compared values have no visual difference.Error: 
+    at Object.toThrowError (/home/projects/stackblitz-starters-vnout5/tests/case4.test.js:39:7)
+    at Promise.then.completed (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/utils.js:298:28)
+    at https://stackblitzstartersvnout5-k3y5.w-credentialless-staticblitz.com/blitz.fc837ba8.js:40:21741
+    at new Promise (&lt;anonymous&gt;)
+    at new Promise (https://stackblitzstartersvnout5-k3y5.w-credentialless-staticblitz.com/blitz.fc837ba8.js:40:21712)
+    at callAsyncCircusFn (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:121:9)
+    at run (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/home/projects/stackblitz-starters-vnout5/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/projects/stackblitz-starters-vnout5/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/projects/stackblitz-starters-vnout5/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="InsuranceService" errors="0" failures="0" skipped="0" timestamp="2024-12-03T19:54:04" time="0.196" tests="6">
+    <testcase classname="InsuranceService should calculate price for a teenager" name="InsuranceService should calculate price for a teenager" time="0.002">
+    </testcase>
+    <testcase classname="InsuranceService should calculate price for an adult" name="InsuranceService should calculate price for an adult" time="0.001">
+    </testcase>
+    <testcase classname="InsuranceService should calculate price for an elderly person" name="InsuranceService should calculate price for an elderly person" time="0">
+    </testcase>
+    <testcase classname="InsuranceService should calculate price with no discount for new members" name="InsuranceService should calculate price with no discount for new members" time="0">
+    </testcase>
+    <testcase classname="InsuranceService should calculate price for edge case of teenage max age" name="InsuranceService should calculate price for edge case of teenage max age" time="0">
+    </testcase>
+    <testcase classname="InsuranceService should calculate price for edge case of adult max age" name="InsuranceService should calculate price for edge case of adult max age" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>
