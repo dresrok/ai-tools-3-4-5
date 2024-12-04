@@ -1,3 +1,5 @@
+# Generación de Código
+
 ## Caso 3
 
 Esta tarea requiere que trabajes con LLM para obtener implementaciones de funciones de JavaScript para un conjunto de requisitos:
@@ -27,5 +29,5 @@ Escribe pruebas unitarias sin modificar el código de la clase InsuranceService.
 
 ### Puedes resolver estos ejercicios usando las siguientes herramientas:
 
-https://claude.ai/
-https://chatgpt.com/
+- https://claude.ai
+- https://chatgpt.com
